@@ -5,7 +5,7 @@ import com.intuit.karate.Runner;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-class ExampleTestRunner {
+class ExampleRunnerTest {
 
     @Test
     void testParallel() {

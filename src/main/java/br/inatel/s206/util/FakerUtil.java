@@ -30,6 +30,11 @@ public class FakerUtil {
         return faker.internet().emailAddress();
     }
 
+    public String geraIdInvalido() {
+
+        return faker.internet().uuid();
+    }
+
     public String montaUsuario(String nome, String email, String password) {
 
         return "{\"nome\": \"" + nome + "\", \"email\": \"" + email + "\", \"password\": \"" + password + "\", \"administrador\": \"true\"}";

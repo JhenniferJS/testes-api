@@ -48,6 +48,7 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>

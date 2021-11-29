@@ -29,7 +29,7 @@ $ git clone https://github.com/JhenniferJS/testes-api.git
 Para acessar o relatório de testes, basta abrir o arquivo abaixo em um browser, após execução dos testes:
 
 ```
-TesteAPI
+testes-api
 ├─ target
 │  ├─ karate-reports
 │  │  ├─ br.inatel.s206.test.example.html
